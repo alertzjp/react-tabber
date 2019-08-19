@@ -26,19 +26,7 @@ const tarbarArr = [
 ]
 
 const Tabbar = (WrappedComponent) => class Tabbar extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      index: 0
-    }
-  }
-
-  itemChange = (i) => {
-    this.setState({
-      index: i
-    })
-  };
-
+ 
   render() {
     const url = window.location.href
     return (
